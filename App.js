@@ -32,7 +32,7 @@ const App = () =>{
         <>
             <div className= "main_div">
                 <div className= "center_div">
-                <h1> ToDO List</h1>
+                <h1> U-ToDO List</h1>
                 <br/>
                 <input type="text" placeholder="Add a Items" onChange= {itemEvent} value= {inputlist}/> 
                 <button onClick = {listItem}> + </button>
